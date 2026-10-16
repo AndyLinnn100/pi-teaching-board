@@ -1,0 +1,25 @@
+# Machine-local allowlist (contains personal absolute paths).
+# Copy config.example.json → config.json and edit for this machine.
+config.json
+
+# Dependencies & build output
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Logs & scratch
+logs/
+*.log
+*.tmp
+
+# Board runtime artifacts (corrupt-file backups land next to BOARD.json)
+*.corrupt-*.json
+BOARD.json.tmp
+
+# OS & editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

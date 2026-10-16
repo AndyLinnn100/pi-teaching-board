@@ -1,0 +1,5 @@
+{
+	"allowedDirectories": [
+		"/absolute/path/to/your/math/workspace"
+	]
+}
